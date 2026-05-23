@@ -1,0 +1,19 @@
+README.md
+  s_c4c889ab86ce88::t_abfbf019342db1 3,5-7,9-59
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.11",
+  "base_commit_sha": "c6d911b29e419c68bb43a1649061ddd281f440a1",
+  "prompts": {},
+  "sessions": {
+    "s_c4c889ab86ce88": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ac71a541-e6b8-4ae3-9179-9f1c67837466",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "samhermeli <samhermeli@users.noreply.github.com>"
+    }
+  }
+}
