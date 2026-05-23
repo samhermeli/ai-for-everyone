@@ -1,0 +1,20 @@
+# Dependencias para 02_tracing/agent_mercadopago_traced.py
+# Versiones fijas para evitar conflictos de resolucion.
+#
+# Instalar con virtualenv (recomendado):
+#   python3 -m venv .venv
+#   source .venv/bin/activate
+#   pip install -r 02_tracing/requirements.txt
+
+# LLM client
+openai==1.51.0
+httpx==0.27.2
+
+# HTTP
+requests==2.32.3
+
+# OpenTelemetry core — unico stack de tracing, sin UI externa
+opentelemetry-sdk==1.27.0
+
+# OpenInference (instrumentacion automatica para llamadas OpenAI)
+openinference-instrumentation-openai==0.1.17

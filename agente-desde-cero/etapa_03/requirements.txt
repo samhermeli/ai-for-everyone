@@ -1,0 +1,13 @@
+# Dependencias para 03_evals/agent_mercadopago_evals.py
+# Mismas que 02_tracing — no se agregan nuevas dependencias.
+# Los evaluadores usan el mismo cliente OpenAI (Ollama) como juez.
+#
+# Instalar:
+#   source ../.venv/bin/activate   (reutilizar el venv de 02_tracing)
+#   pip install -r 03_evals/requirements.txt
+
+openai==1.51.0
+httpx==0.27.2
+requests==2.32.3
+opentelemetry-sdk==1.27.0
+openinference-instrumentation-openai==0.1.17
