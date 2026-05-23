@@ -1,0 +1,19 @@
+README.md
+  s_ae70db8fce26c2::t_231c44e157c89e 1-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.11",
+  "base_commit_sha": "d961eb5b1cbf53168d3503bc936cfcbe5654bc68",
+  "prompts": {},
+  "sessions": {
+    "s_ae70db8fce26c2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7b871e8a-720e-4c33-8ece-78159689d44d",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "samhermeli <samhermeli@users.noreply.github.com>"
+    }
+  }
+}
