@@ -17,6 +17,7 @@ Cada directorio es un artículo independiente con su propio README de setup, dep
 | Artículo | Etapas | Carpeta |
 |---|---|---|
 | **De llamar una API a construir un agente** — un viaje de 5 etapas: del primer LLM call hasta meta-evaluación del juez. | 5 | [`agente-desde-cero/`](./agente-desde-cero) |
+| **¿Puede un encoder de seguridad aprender métricas CVSS 4.0?** — experimento reproducible con SecureBERT, datos públicos y un gate de confianza. | — | [`cvss4-securebert-experiment/`](./cvss4-securebert-experiment) |
 
 > Más artículos en camino.
 
@@ -30,6 +31,7 @@ ai-for-everyone/
     ├── etapa_01/              ← una idea por etapa
     ├── etapa_02/
     └── ...
+└── cvss4-securebert-experiment/ ← experimento reproducible de CVSS 4.0
 ```
 
 ## Cómo empezar

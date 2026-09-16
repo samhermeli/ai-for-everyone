@@ -1,0 +1,6 @@
+{
+  "vulnerability_id": "CVE-2026-0001",
+  "vulnerability_description": "The vulnerability can be exploited remotely over the network. The attack has low complexity. No additional attack requirements are present. No privileges are required. No user interaction is required. The vulnerable system has high confidentiality impact. The vulnerable system has high integrity impact. The vulnerable system has high availability impact. There is no confidentiality impact to subsequent systems. There is no integrity impact to subsequent systems. There is no availability impact to subsequent systems.",
+  "application_name": "payments-api",
+  "application_context": "The dependency runs in an internet-facing payments API. Its confidentiality, integrity, and availability requirements are high."
+}
