@@ -1,0 +1,72 @@
+{
+  "engine": "securebert-cvss4-demo",
+  "model": "cisco-ai/SecureBERT2.0-base",
+  "request": {
+    "vulnerability_id": "CVE-2026-0001",
+    "application_name": "payments-api",
+    "source": "request_example.json"
+  },
+  "vector": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:H/SC:N/SI:N/SA:N",
+  "metrics": {
+    "AV": {
+      "value": "L",
+      "confidence": 0.4931
+    },
+    "AC": {
+      "value": "L",
+      "confidence": 0.5212
+    },
+    "AT": {
+      "value": "N",
+      "confidence": 0.7315
+    },
+    "PR": {
+      "value": "N",
+      "confidence": 0.5345
+    },
+    "UI": {
+      "value": "N",
+      "confidence": 0.6868
+    },
+    "VC": {
+      "value": "H",
+      "confidence": 0.4249
+    },
+    "VI": {
+      "value": "N",
+      "confidence": 0.6083
+    },
+    "VA": {
+      "value": "H",
+      "confidence": 0.4796
+    },
+    "SC": {
+      "value": "N",
+      "confidence": 0.7628
+    },
+    "SI": {
+      "value": "N",
+      "confidence": 0.5789
+    },
+    "SA": {
+      "value": "N",
+      "confidence": 0.7964
+    }
+  },
+  "illustrative_gate": {
+    "threshold": 0.7,
+    "decision": "FALLBACK_LLM",
+    "low_confidence_metrics": [
+      "AV",
+      "AC",
+      "PR",
+      "UI",
+      "VC",
+      "VI",
+      "VA",
+      "SI"
+    ],
+    "warning": "Umbral educativo; todavía no es una política de producción."
+  },
+  "latency_ms": 89.09
+}
